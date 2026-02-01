@@ -1,0 +1,26 @@
+{
+    "Group": "IllagerCaptain",
+    "Name": "Sunrise Trash Pickup",
+    "Version": "1.0.0",
+    "Description": "Adds a trash can that is emptied at sunrise, giving you time to recover accidentally discarded items.",
+    "Authors": [
+        {
+            "Name": "IllagerCaptain"
+        }
+    ],
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "LoadBefore": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "illagercaptain.sunrisetrashpickup.SunriseTrashPickupPlugin",
+    "IncludesAssetPack": true,
+    "SubPlugins": [
+        
+    ]
+}

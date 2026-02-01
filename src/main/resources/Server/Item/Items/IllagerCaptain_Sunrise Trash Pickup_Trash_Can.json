@@ -1,0 +1,101 @@
+{
+  "TranslationProperties": {
+    "Name": "Trash Can"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ResourceTypeId": "Ingredient_Bar_Iron",
+        "Quantity": 15
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/IllagerCaptain_Sunrise Trash Pickup_Trash_Can.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/IllagerCaptain_Sunrise Trash Pickup_Trash_Can.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "State": {
+      "Id": "illagercaptain.sunrisetrashcanpickup.trashcan",
+      "Capacity": 9,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim",
+          "HitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Open_Cutoff",
+          "InteractionHitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Open"
+        }
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Primary": "Break_Container",
+      "Use": "Open_Container"
+    },
+    "ParticleColor": "#4f4d58",
+    "HitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can"
+  },
+  "Tags": {
+    "Type": [
+      "Bench",
+      "Furniture"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.55,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/IllagerCaptain_Sunrise Trash Pickup_Trash_Can.png"
+}
