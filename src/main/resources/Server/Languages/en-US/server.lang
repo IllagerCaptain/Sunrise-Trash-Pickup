@@ -1,0 +1,12 @@
+# === items ===
+
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can.name = Iron Trash Can
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can.description = [TMP] Has <color is="#ffffff">9</color> slots to toss items away into. Empties at <color is="#ffffff">6:00 AM</color>.
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Thorium.name = Thorium Trash Can
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Thorium.description = [TMP] Has <color is="#ffffff">18</color> slots to toss items away into. Empties at <color is="#ffffff">6:00 AM</color>.
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Cobalt.name = Cobalt Trash Can
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Cobalt.description = [TMP] Has <color is="#ffffff">18</color> slots to toss items away into. Empties at <color is="#ffffff">6:00 AM</color>.
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Adamantite.name = Adamantite Trash Can
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Adamantite.description = [TMP] Has <color is="#ffffff">27</color> slots to toss items away into. Empties at <color is="#ffffff">6:00 AM</color>.
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril.name = Mithril Trash Can
+items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril.description = [TMP] Has <color is="#ffffff">36</color> slots to toss items away into. Empties at <color is="#ffffff">6:00 AM</color>.

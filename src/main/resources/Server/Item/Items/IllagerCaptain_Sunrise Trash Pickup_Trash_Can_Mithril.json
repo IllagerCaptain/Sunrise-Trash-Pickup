@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril.name",
+    "Description": "server.items.IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril.description"
+  },
+  "ItemLevel": 50,
+  "Parent": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can",
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 15
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "BlockType": {
+    "CustomModel": "Blocks/IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril.png",
+        "Weight": 1
+      }
+    ],
+    "State": {
+      "Id": "illagercaptain.sunrisetrashcanpickup.trashcan",
+      "Capacity": 36,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim",
+          "HitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Open_Cutoff",
+          "InteractionHitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Open"
+        }
+      }
+    },
+    "ParticleColor": "#d2efec"
+  },
+  "Icon": "Icons/ItemsGenerated/IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril.png",
+  "IconProperties": {
+    "Scale": 0.55,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  }
+}
