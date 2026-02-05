@@ -1,0 +1,25 @@
+{
+  "Input": [
+    {
+      "ItemId": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Mithril",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ore_Mithril",
+    "Quantity": 8
+  },
+  "Output": [
+    {
+      "ItemId": "Ore_Mithril",
+      "Quantity": 8
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}
