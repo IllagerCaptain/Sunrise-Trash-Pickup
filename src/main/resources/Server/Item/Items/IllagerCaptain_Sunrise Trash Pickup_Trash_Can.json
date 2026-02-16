@@ -48,21 +48,69 @@
     },
     "Material": "Solid",
     "Opacity": "Solid",
-    "State": {
-      "Id": "illagercaptain.sunrisetrashcanpickup.trashcan",
-      "Capacity": 9,
-      "Definitions": {
-        "CloseWindow": {
-          "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
-          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
-        },
-        "OpenWindow": {
-          "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
-          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim",
-          "HitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Open_Cutoff",
-          "InteractionHitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can_Open"
+    "Bench": {
+      "Type": "Processing",
+      "Input": [
+        {
+          "FilterValidIngredients": false
         }
-      }
+      ],
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Thorium",
+                "Quantity": 15
+              }
+            ],
+            "TimeSeconds": 3
+          },
+          "ExtraInputSlot": 8
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Cobalt",
+                "Quantity": 15
+              }
+            ],
+            "TimeSeconds": 3
+          },
+          "ExtraInputSlot": 17
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Adamantite",
+                "Quantity": 15
+              }
+            ],
+            "TimeSeconds": 3
+          },
+          "ExtraInputSlot": 17
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Mithril",
+                "Quantity": 15
+              }
+            ],
+            "TimeSeconds": 3
+          },
+          "ExtraInputSlot": 26
+        },
+        {
+          "ExtraInputSlot": 35
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Chest_Wooden_Open",
+      "LocalCloseSoundEventId": "SFX_Chest_Wooden_Close",
+      "Id": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can"
     },
     "Support": {
       "Down": [
@@ -73,8 +121,7 @@
     },
     "VariantRotation": "NESW",
     "Interactions": {
-      "Primary": "Break_Container",
-      "Use": "Open_Container"
+      "Use": "Open_Processing_Bench"
     },
     "ParticleColor": "#d0d1c1",
     "HitboxType": "IllagerCaptain_Sunrise Trash Pickup_Trash_Can"
