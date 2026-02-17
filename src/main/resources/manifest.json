@@ -1,14 +1,14 @@
 {
     "Group": "IllagerCaptain",
     "Name": "Sunrise Trash Pickup",
-    "Version": "1.1.1",
+    "Version": "1.1.2",
     "Description": "Adds trash cans that are emptied at sunrise, giving you time to recover accidentally discarded items.",
     "Authors": [
         {
             "Name": "IllagerCaptain"
         }
     ],
-    "ServerVersion": "*",
+    "ServerVersion": "2026.02.17-255364b8e",
     "Dependencies": {
         
     },
